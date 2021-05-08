@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+:root {
+  --color-primary: #c3073f;
+  --color-secondary: #fff;
+  --color-tertiary: #090b13;
+  --color-primary-darker: #00bfff;
+  --color-secondary-darker: #ffbb00;
+  --color-tertiary-darker: #fd424b;
+  --color-primary-opacity: #00a1ef2e;
+  --color-secondary-opacity: #ffcd0331;
+  --color-tertiary-opacity: #ff58602d;
+  --gradient-primary: linear-gradient(to top left, #fd424b, #c3073f);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +20,207 @@
   text-decoration: none;
 }
 
+.max-width {
+  max-width: 90%;
+  padding: 0 80px;
+  margin: auto;
+}
+
 /* navbar styling */
 .navbar {
   position: fixed;
+  z-index: 2;
   width: 100%;
-  background: crimson;
+  padding: 30px 0;
+  /* background: #090b13; */
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+  padding: 15px;
+  background: var(--color-tertiary);
+}
+
+.navbar .max-width {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+
+.navbar .logo a span {
+  color: var(--color-primary);
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a {
+  color: var(--color-secondary);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: all 0.3s;
+}
+
+.navbar .menu li a:hover {
+  color: var(--color-primary);
+}
+
+/* Menu button sytling */
+.menu-btn {
+  color: var(--color-secondary);
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Highlight */
+.highlight {
+  position: relative;
+}
+
+.highlight::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -3;
+  opacity: 0.7;
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  background-image: var(--gradient-primary);
+}
+
+/* Home styling */
+.home {
+  display: flex;
+  position: relative;
+  background: url("/images/Banner.jpg") center center / cover no-repeat fixed;
+  height: 100vh;
+  color: var(--color-secondary);
+  min-height: 500px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.home .home-content .text-2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+  font-size: 50px;
+  margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+  font-weight: 500;
+  color: inherit;
+}
+.home-content {
+  position: relative;
+  z-index: 1;
+}
+
+.home .home-content a {
+  display: inline-block;
+  position: relative;
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid var(--color-primary);
+  transition: all 0.3s;
+  z-index: 2;
+}
+
+.home .home-content a:hover {
+  color: white;
+  background: none;
+}
+
+/* responsive media query start */
+@media (max-width: 940px) {
+  .max-width {
+    padding: 0 50px;
+  }
+
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+
+  .navbar .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: var(--color-tertiary);
+    text-align: center;
+    padding-top: 10vh;
+    transition: all 0.3s;
+  }
+
+  .navbar .menu.active {
+    left: 0;
+  }
+
+  .navbar .menu li {
+    display: block;
+  }
+
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+
+  .home .home-content .text-2 {
+    font-size: 70px;
+  }
+
+  .home .home-content .text-3 {
+    font-size: 45px;
+  }
+
+  .home .home-content a {
+    font-size: 23px;
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width: 690px) {
+  .home .home-content .text-2 {
+    font-size: 60px;
+  }
+
+  .home .home-content .text-3 {
+    font-size: 35px;
+  }
+  .home .home-content a {
+    font-size: 20px;
+  }
 }
