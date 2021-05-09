@@ -1,7 +1,7 @@
 "use strict";
 const nav = document.querySelector(".navbar");
 const home = document.querySelector(".home");
-const abcd = document.querySelector(".abcd");
+const about = document.querySelector(".about");
 const menuBtn = document.querySelector(".menu-btn");
 const menuBtnIcon = menuBtn.querySelector("i");
 
@@ -16,17 +16,14 @@ const navHeight = nav.getBoundingClientRect().height;
 
 const stickyNav = function (entries) {
   const [entry] = entries;
-  if (entry.isIntersecting) nav.classList.add("sticky");
+
+  if (!entry.isIntersecting) nav.classList.add("sticky");
   else nav.classList.remove("sticky");
 };
 
 const headerObserver = new IntersectionObserver(stickyNav, {
   root: null,
-  threshold: 0.1,
-  //   rootMargin: `-${navHeight}px`,
+  threshold: 0.9,
 });
 
-headerObserver.observe(abcd);
-{
-  /* <i class="fas fa-times"></i>; */
-}
+headerObserver.observe(home);
