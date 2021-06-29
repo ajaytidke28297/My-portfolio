@@ -79,6 +79,16 @@ const Header = ({ data }) => {
           <i className="icon-down-circle"></i>
         </a>
       </p>
+
+      <div className="bubbles">
+        <img src="/images/bubble.png" alt="bubble" />
+        <img src="/images/bubble.png" alt="bubble" />
+        <img src="/images/bubble.png" alt="bubble" />
+        <img src="/images/bubble.png" alt="bubble" />
+        <img src="/images/bubble.png" alt="bubble" />
+        <img src="/images/bubble.png" alt="bubble" />
+        <img src="/images/bubble.png" alt="bubble" />
+      </div>
     </header>
   );
 };
