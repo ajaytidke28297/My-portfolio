@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
@@ -17,14 +18,17 @@ const Contact = ({ data }) => {
     var contactMessage = data.contactmessage;
   }
 
-  const submitForm = () => {
-    window.open(
-      `mailto:${contactEmail}?subject=${encodeURIComponent(
-        subject
-      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-        email
-      )}): ${encodeURIComponent(message)}`
-    );
+  const submitForm = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_7e8nj72",
+        "template_ouy7wdv",
+        ".contact__form",
+        "user_UMZTNYlXiFrxfT7hmQywA"
+      )
+      .then((res) => console.log(res));
   };
 
   return (
@@ -43,7 +47,7 @@ const Contact = ({ data }) => {
 
       <div className="row">
         <div className="eight columns">
-          <form onSubmit={submitForm}>
+          <form class="contact__form" onSubmit={submitForm}>
             <fieldset>
               <div>
                 <label htmlFor="contactName">
