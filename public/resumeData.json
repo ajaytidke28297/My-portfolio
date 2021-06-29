@@ -14,7 +14,7 @@
       "zip": "W3B D3V"
     },
     "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
+    "resumedownload": "/resumeData.json",
     "social": [
       {
         "name": "facebook",

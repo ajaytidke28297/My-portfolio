@@ -160,7 +160,7 @@ pre {
 
 blockquote,
 q {
-  quotes: &#8220 &#8220;
+  quotes: #8220 #8220;
 }
 
 blockquote:before,
@@ -1057,6 +1057,7 @@ properly.
     margin-left: 0;
     margin-right: 0;
     padding: 0 30px;
+    text-align: center;
   }
   .row .row {
     width: auto;
