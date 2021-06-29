@@ -540,6 +540,15 @@ ul#nav li.current a span::after {
   margin-top: 6px;
 }
 
+#resume .logo__img {
+  width: 3rem;
+}
+
+#resume .logo__img__container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/

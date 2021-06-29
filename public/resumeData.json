@@ -63,32 +63,39 @@
     "skills": [
       {
         "name": "ReactJs",
-        "level": "100%"
+        "level": "100%",
+        "logo": "react.png"
       },
       {
         "name": "JavaScript",
-        "level": "99%"
+        "level": "99%",
+        "logo": "javascript.png"
       },
       {
         "name": "Java",
-        "level": "95%"
+        "level": "95%",
+        "logo": "java.png"
       },
 
       {
         "name": "DevOps",
-        "level": "75%"
+        "level": "75%",
+        "logo": "devops.png"
       },
       {
         "name": "CSS",
-        "level": "95%"
+        "level": "95%",
+        "logo": "css.png"
       },
       {
         "name": "Python",
-        "level": "85%"
+        "level": "85%",
+        "logo": "python.jpg"
       },
       {
         "name": "Nodejs",
-        "level": "90%"
+        "level": "90%",
+        "logo": "node.png"
       }
     ]
   },
@@ -97,20 +104,20 @@
       {
         "title": "Netlix Clone (React JS)",
         "category": "",
-        "image": "snapchat.jpg",
+        "image": "Netflix.jpg",
         "url": "https://youtu.be/1kGISk5ft2w"
       },
       {
-        "title": "Gmail Clone (React JS)",
+        "title": "Disney Plus Clone (React JS)",
         "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "image": "DisneyPlus.png",
+        "url": "https://disney-plus-clone28.netlify.app"
       },
       {
-        "title": "LinkedIn Clone (React JS)",
+        "title": "Natours (Node JS)",
         "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "image": "Natours.png",
+        "url": "https://natours-ajay.herokuapp.com/"
       }
     ]
   },
