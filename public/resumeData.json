@@ -31,6 +31,11 @@
         "className": "fa fa-instagram"
       },
       {
+        "name": "twitter",
+        "url": "https://github.com/ajaytidke28297",
+        "className": "fa fa-twitter"
+      },
+      {
         "name": "github",
         "url": "https://github.com/ajaytidke28297",
         "className": "fa fa-github"
