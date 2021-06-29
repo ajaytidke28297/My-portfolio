@@ -26,14 +26,7 @@
   header .banner {
     padding-bottom: 12px;
   }
-  header .banner-text h1 {
-    font: 78px/1.1em "opensans-bold", sans-serif;
-    letter-spacing: -1px;
-  }
-  header .banner-text h3 {
-    font: 17px/1.9em "librebaskerville-regular", serif;
-    width: 80%;
-  }
+
   header .banner-text hr {
     width: 65%;
     margin: 12px auto;
@@ -197,13 +190,22 @@
   header .banner {
     padding-bottom: 12px;
     padding-top: 6px;
+    width: 100%;
   }
-  header .banner-text h1 {
-    font: 68px/1.1em "opensans-bold", sans-serif;
+  header .responsive-headline span {
+    font-size: 6rem;
   }
+
+  header .banner-text {
+    font-size: 2rem;
+  }
+
   header .banner-text h3 {
-    font: 16px/1.9em "librebaskerville-regular", serif;
-    width: 85%;
+    font-size: 2rem;
+    width: 90%;
+  }
+  header .banner-text h3 span {
+    font-size: 3rem;
   }
   header .banner-text hr {
     width: 80%;
@@ -432,13 +434,21 @@
   header .banner {
     padding-top: 24px;
   }
-  header .banner-text h1 {
-    font: 40px/1.1em "opensans-bold", sans-serif;
+  header .banner-text {
+    font-size: 2rem;
     margin: 0 auto 24px auto;
   }
+
+  header .responsive-headline span {
+    font-size: 5rem;
+  }
+
   header .banner-text h3 {
-    font: 14px/1.9em "librebaskerville-regular", sans-serif;
+    font-size: 2rem;
     width: 90%;
+  }
+  header .banner-text h3 span {
+    font-size: 3rem;
   }
 
   /* header social links */

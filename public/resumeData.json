@@ -73,24 +73,29 @@
         "name": "Java",
         "level": "95%"
       },
-      {
-        "name": "CSS",
-        "level": "95%"
-      },
+
       {
         "name": "DevOps",
         "level": "75%"
       },
       {
+        "name": "CSS",
+        "level": "95%"
+      },
+      {
         "name": "Python",
         "level": "85%"
+      },
+      {
+        "name": "Nodejs",
+        "level": "90%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
+        "title": "Netlix Clone (React JS)",
         "category": "",
         "image": "snapchat.jpg",
         "url": "https://youtu.be/1kGISk5ft2w"

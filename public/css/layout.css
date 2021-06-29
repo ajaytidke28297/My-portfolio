@@ -1138,7 +1138,7 @@ call-to-action .button {
 }
 
 #contact h4 {
-  font: 16px/24px "opensans-bold", sans-serif;
+  font-size: 1.6rem;
   color: #ebeeee;
   margin-bottom: 6px;
 }
@@ -1148,6 +1148,10 @@ call-to-action .button {
 }
 #contact .header-col {
   padding-top: 6px;
+}
+
+#contact .address {
+  font-size: 1.5rem;
 }
 
 /* contact form */
