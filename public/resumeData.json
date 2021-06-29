@@ -5,15 +5,14 @@
     "description": "I eat, sleep and breathe React",
     "image": "profilepic.jpg",
     "bio": "Hi there! I'm Ajay! A passionate & Experienced Full Stack Web Developer having an experience of building web applications with JavaScript/ Reactjs / Nodejs / HTML / CSS / NoSQL / Java / Python and some other cool libraries and frameworks. Hands-on experience in DevOps using Docker, Kubernetes, Azure DevOps, Terraform, Jenkins & Ansible across AWS, Azure & GCP. Proficient with Configuration Management tools, and in developing CI/CD pipelines & IaC. Strong engineering professional with a Bachelor of Engineering focused in Computer Science. An innovator, known for designing solutions to building and optimising the performance of user-centric high impact website. Leverage technical, analytical and problem-solving skills to create dynamic, high-speed websites, apps and platform fueling competitive advantage and revenue growth.apps and platform fueling competitive advantage and revenue growth.",
-    "email": "papareact.team@gmail.com",
-    "phone": "+44 1234567899",
+    "email": "ajaytidke28297@gmail.com",
+    "phone": "+917276329595",
     "address": {
-      "street": "123 Dev Lane",
-      "city": "London",
-      "state": "Devosphere",
-      "zip": "W3B D3V"
+      "street": "N.D.A road Shivane",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zip": "411023"
     },
-    "website": "https://www.papareact.com/course",
     "resumedownload": "/resumeData.json",
     "social": [
       {
@@ -42,18 +41,18 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "University of Kent - UK",
+        "school": "RMD Sinhgad School of Engineering",
         "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
+        "graduated": "July 2019",
+        "description": "Graduated with Distinction"
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "company": "EQ Technologic",
+        "title": "Software Engineer",
+        "years": "Jul1 2019 - Present",
+        "description": "Enhancing operations for an organization through data analytics and data migration solution. An innovator knows creative design solutions. works on the front end as well as the back end. use Java, javascript, Node, HTML, CSS."
       }
     ],
     "skills": [
@@ -62,20 +61,24 @@
         "level": "100%"
       },
       {
-        "name": "Python",
-        "level": "85%"
-      },
-      {
-        "name": "Git",
-        "level": "70%"
-      },
-      {
         "name": "JavaScript",
         "level": "99%"
       },
       {
-        "name": "Web Development",
+        "name": "Java",
         "level": "95%"
+      },
+      {
+        "name": "CSS",
+        "level": "95%"
+      },
+      {
+        "name": "DevOps",
+        "level": "75%"
+      },
+      {
+        "name": "Python",
+        "level": "85%"
       }
     ]
   },

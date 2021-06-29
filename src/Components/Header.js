@@ -48,11 +48,6 @@ const Header = ({ data }) => {
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#skills">
-              <span>Skills</span>
-            </a>
-          </li>
-          <li>
             <a className="smoothscroll" href="#contact">
               <span>Contact</span>
             </a>

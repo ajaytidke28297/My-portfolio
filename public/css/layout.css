@@ -340,7 +340,7 @@ ul#nav li.current a span::after {
 }
 #about a:hover,
 #about a:focus {
-  color: #11abb0;
+  color: (var(--color-secondary));
 }
 
 #about .heading {
@@ -459,6 +459,13 @@ ul#nav li.current a span::after {
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
+  font-family: "Alegreya", sans-serif;
+  font-weight: 500;
+}
+
+#resume p {
+  color: var(--color-Grey-dark-2);
+  font-size: 1.5rem;
 }
 
 #resume a,
@@ -471,16 +478,18 @@ ul#nav li.current a span::after {
 }
 
 #resume h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-weight: 500;
 }
 #resume h1 span {
   border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
 }
 #resume h3 {
-  font: 25px/30px "opensans-bold", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 #resume .header-col {
@@ -497,7 +506,7 @@ ul#nav li.current a span::after {
   border-bottom: 1px solid #e8e8e8;
 }
 #resume .info {
-  font: 16px/24px "librebaskerville-italic", serif;
+  font-size: 1.6rem;
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
@@ -507,7 +516,7 @@ ul#nav li.current a span::after {
   margin-left: 5px;
 }
 #resume .date {
-  font: 15px/24px "opensans-regular", sans-serif;
+  font-size: 1.5rem;
   margin-top: 6px;
 }
 
@@ -548,7 +557,7 @@ ul#nav li.current a span::after {
 
   margin: 0;
   padding-right: 24px;
-  background: #313131;
+  background: var(--color-ternary);
   display: inline-block;
   height: 42px;
   line-height: 42px;
@@ -913,7 +922,7 @@ call-to-action .button {
   padding-top: 9px;
 }
 #testimonials .header-col h1:before {
-  font-family: "Alegreya", sans-serif;
+  font-family: "FontAwesome";
   content: "\f10d";
   padding-right: 10px;
   font-size: 72px;
@@ -1098,7 +1107,7 @@ call-to-action .button {
   display: none;
 }
 #contact h1:before {
-  font-family: "Alegreya", sans-serif;
+  font-family: "FontAwesome";
   content: "\f0e0";
   padding-right: 10px;
   font-size: 72px;
