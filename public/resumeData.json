@@ -56,7 +56,7 @@
       {
         "company": "EQ Technologic",
         "title": "Software Engineer",
-        "years": "Jul1 2019 - Present",
+        "years": "July 2019 - Present",
         "description": "Enhancing operations for an organization through data analytics and data migration solution. An innovator knows creative design solutions. works on the front end as well as the back end. use Java, javascript, Node, HTML, CSS."
       }
     ],
@@ -105,19 +105,22 @@
         "title": "Netlix Clone (React JS)",
         "category": "",
         "image": "Netflix.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "url": "https://youtu.be/1kGISk5ft2w",
+        "description": "Netflix clone has google authenticaiton and even has the payment method which is implemented using the stripe."
       },
       {
         "title": "Disney Plus Clone (React JS)",
         "category": "",
         "image": "DisneyPlus.png",
-        "url": "https://disney-plus-clone28.netlify.app"
+        "url": "https://disney-plus-clone28.netlify.app",
+        "description": ""
       },
       {
         "title": "Natours (Node JS)",
         "category": "",
         "image": "Natours.png",
-        "url": "https://natours-ajay.herokuapp.com/"
+        "url": "https://natours-ajay.herokuapp.com/",
+        "description": ""
       }
     ]
   },

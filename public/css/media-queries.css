@@ -293,11 +293,17 @@
 
   /* Portfolio Section
    /* ----------------------------------------------------------------- */
+
   #portfolio-wrapper .columns {
     margin-bottom: 40px;
   }
+
   .popup-modal {
     max-width: 85%;
+  }
+
+  .portfolio-item .item-wrap .overlay {
+    gap: 5px;
   }
 
   /* Testimonials Section

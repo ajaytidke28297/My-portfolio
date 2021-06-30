@@ -824,6 +824,14 @@ input[type="checkbox"] {
   min-height: 1px;
   float: left;
 }
+
+#portfolio-wrapper .columns {
+  position: relative;
+  padding: 0 6rem;
+  min-height: 1px;
+  float: left;
+}
+
 .column.centered,
 .columns.centered {
   float: none;
@@ -992,7 +1000,7 @@ input[type="checkbox"] {
   width: 16.66667%;
 }
 .bgrid-quarters [class*="column"] {
-  width: 25%;
+  width: 100%;
 }
 .bgrid-thirds [class*="column"] {
   width: 33.33333%;
@@ -1026,9 +1034,7 @@ properly.
   .s-bgrid-quarters [class*="column"] {
     width: 25%;
   }
-  .s-bgrid-thirds [class*="column"] {
-    width: 33.33333%;
-  }
+
   .s-bgrid-halves [class*="column"] {
     width: 50%;
   }
