@@ -104,12 +104,11 @@
       {
         "title": "Netlix Clone (React JS)",
         "category": "",
-        "image": "Netflix.jpg",
-        "url": "https://netflix-clone1328.web.app",
-        "description": "Netflix clone has google authenticaiton and even has the payment method which is implemented using the stripe."
+        "image": "Netflix.png",
+        "url": "https://netflix-clone1328.web.app"
       },
       {
-        "title": "Disney Plus Clone (React JS)",
+        "title": "Disney+ Clone (React JS)",
         "category": "",
         "image": "DisneyPlus.png",
         "url": "https://disney-plus-clone28.netlify.app",
@@ -121,6 +120,12 @@
         "image": "Natours.png",
         "url": "https://natours-ajay.herokuapp.com/",
         "description": ""
+      },
+      {
+        "title": "Tesla Clone(React JS)",
+        "category": "",
+        "image": "Tesla.png",
+        "url": "https://tesla-clone28.netlify.app"
       }
     ]
   },
