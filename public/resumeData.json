@@ -102,12 +102,6 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Netlix Clone (React JS)",
-        "category": "",
-        "image": "Netflix.png",
-        "url": "https://netflix-clone1328.web.app"
-      },
-      {
         "title": "Disney+ Clone (React JS)",
         "category": "",
         "image": "DisneyPlus.png",
@@ -118,8 +112,14 @@
         "title": "Natours (Node JS)",
         "category": "",
         "image": "Natours.png",
-        "url": "https://natours-ajay.herokuapp.com/",
+        "url": "https://natours-ajay.herokuapp.com",
         "description": ""
+      },
+      {
+        "title": "Nexter - Buy your dream home here",
+        "category": "",
+        "image": "Nexter.png",
+        "url": "https://nexter-ajay.netlify.app"
       },
       {
         "title": "Tesla Clone(React JS)",
