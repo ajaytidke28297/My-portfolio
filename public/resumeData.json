@@ -72,6 +72,11 @@
         "logo": "javascript.png"
       },
       {
+        "name": "Nodejs",
+        "level": "90%",
+        "logo": "node.png"
+      },
+      {
         "name": "Java",
         "level": "95%",
         "logo": "java.png"
@@ -91,16 +96,18 @@
         "name": "Python",
         "level": "85%",
         "logo": "python.jpg"
-      },
-      {
-        "name": "Nodejs",
-        "level": "90%",
-        "logo": "node.png"
       }
     ]
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "ChatGPT",
+        "category": "",
+        "image": "chatgpt.png",
+        "url": "https://chatgpt-seven-coral.vercel.app/",
+        "description": ""
+      },
       {
         "title": "Disney+ Clone (React JS)",
         "category": "",
